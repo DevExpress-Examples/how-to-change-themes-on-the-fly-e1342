@@ -1,0 +1,33 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="SkinsDemo.Site1" %>
+<%@ Register Assembly="DevExpress.Web.ASPxEditors.v8.3, Version=8.3.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
+    Namespace="DevExpress.Web.ASPxEditors" TagPrefix="dxe" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <title>Skins demo</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:XmlDataSource ID="xdsThemes" runat="server" DataFile="~/App_Data/Themes.xml"
+        XPath="//Theme"></asp:XmlDataSource>
+            <dxe:ASPxLabel ID="lblSkins" runat="server" AssociatedControlID="cbSkins" CssClass="lblSkins"
+                Text="Select Appearance:">
+            </dxe:ASPxLabel>
+            &nbsp;
+            <dxe:ASPxComboBox ID="cbSkins" runat="server" AutoPostBack="True" ClientInstanceName="cbSkins"
+                DataSourceID="xdsThemes" EnableViewState="False" OnDataBound="cbSkins_DataBound"
+                Width="150px">
+                <ClientSideEvents SelectedIndexChanged="function(s, e) {
+    DXSaveCurrentThemeToCookies(s.GetSelectedItem().value);
+}" />
+            </dxe:ASPxComboBox>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
