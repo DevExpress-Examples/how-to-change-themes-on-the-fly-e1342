@@ -1,3 +1,13 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Default.aspx](./CS/SkinsDemo/Default.aspx) (VB: [Default.aspx.vb](./VB/SkinsDemo/Default.aspx.vb))
+* [Default.aspx.cs](./CS/SkinsDemo/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/SkinsDemo/Default.aspx.vb))
+* [Utilities.js](./CS/SkinsDemo/Scripts/Utilities.js) (VB: [Utilities.js](./VB/SkinsDemo/Scripts/Utilities.js))
+* [Site1.Master](./CS/SkinsDemo/Site1.Master) (VB: [Site1.Master](./VB/SkinsDemo/Site1.Master))
+* [Site1.Master.cs](./CS/SkinsDemo/Site1.Master.cs) (VB: [Site1.Master](./VB/SkinsDemo/Site1.Master))
+* [Utils.cs](./CS/SkinsDemo/Utils.cs) (VB: [Utils.vb](./VB/SkinsDemo/Utils.vb))
+<!-- default file list end -->
 # How to change themes on the fly
 
 
