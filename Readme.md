@@ -1,3 +1,10 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Default.aspx](./CS/Default.aspx) (VB: [Default.aspx](./VB/Default.aspx))
+* [Default2.aspx](./CS/Default2.aspx) (VB: [Default2.aspx](./VB/Default2.aspx))
+* [Default3.aspx](./CS/Default3.aspx) (VB: [Default3.aspx](./VB/Default3.aspx))
+<!-- default file list end -->
 # How to change themes on the fly
 
 
