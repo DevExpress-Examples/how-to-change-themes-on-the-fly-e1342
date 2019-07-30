@@ -7,7 +7,7 @@
 <!-- default file list end -->
 # How to change themes on the fly
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e1342)**
+**[[Run Online]](https://codecentral.devexpress.com/e1342/)**
 <!-- run online end -->
 
 
